@@ -1,0 +1,81 @@
+ *{
+    padding: 0;
+    margin: 0;   
+} 
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px; 
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    max-width: 300px; /*tamanho do container/"o que é branco"*/
+    /* display: block; */
+    margin: 0 1rem; /* nao se aproximar da margin lateral quando mobile */
+    background-color:  hsl(0, 0%, 100%); 
+    border-radius: 15px;
+    padding: 15px; /* serve para o qr code img e o texto nao ficarem encostados direto na bosrda do container (braco) */
+    text-align: center; 
+}
+
+.qr-code-image img{
+    border-radius: 14px;
+    width: 100%; /*preencher o tamanho todo container */
+}   
+
+.qr-code-text h2{
+    color: hsl(218, 44%, 22%);
+    padding: 18px 12px;
+    font-weight: 700;
+}
+.qr-code-text p{
+    color:  hsl(220, 15%, 55%);  
+    padding: 0 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+} 
+
+.attribution { 
+    font-size: 11px; 
+    opacity: 10%;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+*/
