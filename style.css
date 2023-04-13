@@ -78,4 +78,15 @@ The designs were created to the following widths:
 
 - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 400, 700
+
+
+Good ideas
+🔹It is better to use min-height for the body, as using the height might cause the page to be cut off in viewports with small height (such as mobile landscape orientation).
+
+🔹Length units such as pixels may not be the best alternative because screen sizes and user preferences vary, and absolute units don’t scale. Relative units like em or rem are a better option for scalable layouts (the page will adjust to the user's browser settings) and maintenance (to make changes without having to adjust every pixel value).
+
+🔹You don't need to use font-weight as 400 and 700 are the default values for normal and bold font respectively.	
+
 */
+
+
