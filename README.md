@@ -24,7 +24,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## My process
 
-Try dto do all by my self but I needed to see a video about flexbox and understand about min height and width.
+Try to do all by my self with confidence after 6 month a part of all technology and studies, so I needed to see some videos about flexbox and understand about 'min-height' and 'min-width'.
 
 ### Built with
 
@@ -66,7 +66,7 @@ I want to continue focusing on in future projects how to provide clean code.  I 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Pricbnll)
+- Frontend Mentor - [@Pricbnll](https://www.frontendmentor.io/profile/Pricbnll)
 
 ## Acknowledgments
 
